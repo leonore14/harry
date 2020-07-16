@@ -1,38 +1,105 @@
-.App {
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.banner{
+  z-index: 0;
+  width:100%;
+}
+
+.harryImage{
+  width: 100%;
+}
+
+.title{
+  z-index: 1;
+  margin-top: -25%;
+  margin-left: 40%;
+  font-size:8vw;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner2{
+  z-index: 0;
+  height: 200px;
+  width:100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.harryImage5{
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title2{
+  z-index: 1;
+  margin-top: -35%;
+  margin-left: -45%;
+  font-size:4.5vw;
+  text-align: center;
+}
+
+.selectedGif {
+  width: 100%;
+  margin-top:8%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+.selectedGif1{
+  width:25%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.selectedGif2{
+  width:48%;
 }
+
+.selectedGif3{
+  width:27%;
+}
+
+.selectedGifBanner {
+  width: 100%;
+  margin-top:25%;
+  display: flex;
+  flex-direction: row;
+}
+
+.selectedGif4{
+  width:100%;
+  margin-top: -30%;
+}
+
+.carousel{
+  width:100%;
+  margin-top:25%;
+  display: flex;
+  flex-direction: row;
+}
+
+.harryImage2{
+  width: 33.3%;
+}
+
+.harryImage3{
+  width: 33.4%;
+}
+
+.harryImage4{
+  width: 33.3%;
+}
+
+.gifContainer {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.gif {
+  width: 20%;
+}
+
+.gif img {
+  width: 100%;
+}
+
