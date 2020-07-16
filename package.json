@@ -2,7 +2,7 @@
   "name": "harry",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://leonore14.github.io/harry",
+  "homepage": "https://leonore14.github.io/harry",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -15,6 +15,7 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
